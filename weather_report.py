@@ -11,6 +11,8 @@ appSecret = os.environ.get("APP_SECRET")
 openId = os.environ.get("OPEN_ID")
 # 天气预报模板ID
 weather_template_id = os.environ.get("TEMPLATE_ID")
+# 默认天气预报模板ID
+default_weather_template_id = os.environ.get("DEFAULT_TEMPLATE_ID")
 
 def get_weather(my_city):
     urls = ["http://www.weather.com.cn/textFC/hb.shtml",

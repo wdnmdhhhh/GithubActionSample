@@ -131,4 +131,4 @@ def weather_report(this_city):
 
 
 if __name__ == '__main__':
-    weather_report("重庆")
+    weather_report("重庆沙坪坝")
